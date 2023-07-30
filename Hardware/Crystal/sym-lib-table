@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EXWIFI-rescue")(type "KiCad")(uri "${KIPRJMOD}/EXWIFI-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "EXWIFI")(type "Legacy")(uri "${KIPRJMOD}/Crystal.lib")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "C:/Users/Sean/Documents/Projects/ESP Libraries/libraries/Espressif.kicad_sym")(options "")(descr ""))
+)
