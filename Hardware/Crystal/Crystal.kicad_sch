@@ -2880,6 +2880,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c250b84-3491-4808-b738-acdf7c71a929)
   )
+  (text "Wuerth WR-TBL\nPlug: Mouser 691361300002 \nSocket: 691322310002 "
+    (at 134.62 41.275 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ae66b54d-3b71-4e62-8be4-62d92630b592)
+  )
   (text "Use ESP32-C3-WROOM-02-N4 " (at 160.02 175.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b7a72950-e8af-4227-bfaa-32310e595914)

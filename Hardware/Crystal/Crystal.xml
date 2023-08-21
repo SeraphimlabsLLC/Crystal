@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>S:\Projects\Crystal\Hardware\Crystal\Crystal.kicad_sch</source>
-    <date>8/20/2023 12:33:39 PM</date>
+    <date>8/20/2023 4:49:15 PM</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -377,15 +377,15 @@
     </comp>
     <comp ref="L1">
       <value>4.7uH</value>
-      <footprint>Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/281/1/JELF243B_0025-1634213.pdf</datasheet>
+      <footprint>Inductor_SMD_Wurth:L_Wurth_WE-LQSH-4020</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/74405042047.pdf</datasheet>
       <fields>
-        <field name="MFG">Murata Electronics</field>
-        <field name="PN">LQM2HPN4R7MGCL </field>
+        <field name="MFG">Wuerth Electronik</field>
+        <field name="PN">74405042047</field>
       </fields>
       <libsource lib="Motor Shield Adapter-rescue" part="INDUCTOR-pspice" description=""/>
-      <property name="MFG" value="Murata Electronics"/>
-      <property name="PN" value="LQM2HPN4R7MGCL "/>
+      <property name="MFG" value="Wuerth Electronik"/>
+      <property name="PN" value="74405042047"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

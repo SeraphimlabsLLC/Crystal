@@ -1,0 +1,27 @@
+Manufacturer Part Number,Qty,Reference(s),Value,Footprint,Datasheet,MFG
+929850-01-06-RA,1,AIN1,Conn_01x06,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,~,3M
+B3U-3000P,2,"BOOT1, RESET1",SW_Push,Button_Switch_SMD:SW_SPST_B3U-3000P,~,OMRON
+C1206C105K4RACTU,3,"C1, C2, C8",1uf,Capacitor_SMD:C_1206_3216Metric,~,KEMET
+C1206C104K5RAC7210,1,C3,0.1uF,Capacitor_SMD:C_1206_3216Metric,~,KEMET
+865080542006,3,"C4, C5, C6",22uF,Capacitor_SMD:CP_Elec_5x5.3,,Wurth Electronik
+865080542006,1,C7,22uF,Capacitor_SMD:CP_Elec_5x5.3,~,Wurth Electronik
+865080545012,1,CB1,100uF,Capacitor_SMD:CP_Elec_6.3x7.7,~,Wuerth Electronik
+SMAJ18CA-AT/TR13,1,D1,SMAJ18CA,Diode_SMD:D_SMA,https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet,YAEGO
+156120RS75300,1,D2,LED,LED_SMD:LED_1206_3216Metric,https://www.mouser.com/datasheet/2/445/156120RS75300-1715573.pdf,Wurth Elektronik 
+BZT52C3V3-7-F,5,"D3, D4, D5, D7, D8",3.3v,Diode_SMD:D_SOD-123,~,Diodes Incorporated
+PMEG2005EGWX,1,D6,PMEG2005EGWX,Diode_SMD:D_SOD-123,~,Nexperia
+929850-01-08-RA,1,GPIO1,Conn_01x08_Female,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,,3M
+105017-0001,1,J1,USB_B_Micro,Connector_USB:USB_Micro-B_Molex-105017-0001,~,Molex
+74405042047,1,L1,4.7uH,Inductor_SMD_Wurth:L_Wurth_WE-LQSH-4020,https://www.we-online.com/catalog/datasheet/74405042047.pdf,Wuerth Electronik
+RC1206FR-0747KL,3,"R1, R5, R6",47k,Resistor_SMD:R_1206_3216Metric,~,YAEGO
+RC1206FR-1310KL,2,"R2, R3",10k,Resistor_SMD:R_1206_3216Metric,~,YAEGO
+RC1206FR-071KL,1,R4,1k,Resistor_SMD:R_1206_3216Metric,~,YAEGO
+RC1206FR-0711KL,5,"R7, R9, R11, R13, R15",11k,Resistor_SMD:R_1206_3216Metric,~,YAEGO
+RC1206FR-0722KL,5,"R8, R10, R12, R14, R16",22k,Resistor_SMD:R_1206_3216Metric,~,YAEGO
+929850-01-04-RA,1,TTY1,Conn_01x04,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,~,3M
+AP63205WU-7 ,1,U1,AP63205WU,Package_TO_SOT_SMD:TSOT-23-6,https://www.mouser.com/datasheet/2/115/DIOD_S_A0007089856_1-2542907.pdf,Diodes Incorporated
+NCP1117ST33T3G,1,U2,NCP1117-3.3_SOT223,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF,ONSemi
+ESP32-C3-WROOM-02-N4,1,U3,ESP32-C3-WROOM-02,Espressif:ESP32-C3-WROOM-02,https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf,Expressif
+TXS0102DCTT,1,U4,TXS0102DCT,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,http://www.ti.com/lit/gpn/txs0102,Texas Insturments
+TXS0108EPWR,1,U5,TXS0108EPW,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,www.ti.com/lit/ds/symlink/txs0108e.pdf,Texas Insturments
+691322310002,1,V1,Conn_01x02,Terminal_Wuerth_new:WR-TBL 2P,~,Wurth Electronik
