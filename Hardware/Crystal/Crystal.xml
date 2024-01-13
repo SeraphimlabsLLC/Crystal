@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>S:\Projects\Crystal\Hardware\Crystal\Crystal.kicad_sch</source>
-    <date>1/11/2024 10:05:29 PM</date>
+    <date>1/12/2024 11:29:21 PM</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Crystal - ESP32-C3 wifi adapter</title>
         <company>SeraphimLabs LLC</company>
-        <rev>0.4</rev>
-        <date>2023-12-30</date>
+        <rev>0.8</rev>
+        <date>2024-01-12</date>
         <source>Crystal.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,40 +62,40 @@
       <tstamps>c5c9f875-19b5-4c60-949e-920eff2b2f38</tstamps>
     </comp>
     <comp ref="C1">
-      <value>1uf</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <fields>
-        <field name="MFG">KEMET</field>
-        <field name="PN">C1206C105K4RACTU</field>
+        <field name="LCSC SKU">C2175202</field>
+        <field name="MFG">Murata</field>
+        <field name="PN">GRT31CR6YA106ME01L</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MFG" value="KEMET"/>
-      <property name="PN" value="C1206C105K4RACTU"/>
-      <property name="LCSC SKU" value=""/>
+      <property name="MFG" value="Murata"/>
+      <property name="PN" value="GRT31CR6YA106ME01L"/>
+      <property name="LCSC SKU" value="C2175202"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000064944326</tstamps>
+      <tstamps>1dcb00bf-c415-4fcf-ae45-0e50512406d2</tstamps>
     </comp>
     <comp ref="C2">
-      <value>1uf</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <fields>
-        <field name="MFG">KEMET</field>
-        <field name="PN">C1206C105K4RACTU</field>
+        <field name="LCSC SKU">C2164091</field>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="PN">865080542006</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MFG" value="KEMET"/>
-      <property name="PN" value="C1206C105K4RACTU"/>
-      <property name="LCSC SKU" value=""/>
+      <libsource lib="Motor Shield Adapter-rescue" part="CP1_Small-Device" description=""/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="PN" value="865080542006"/>
+      <property name="LCSC SKU" value="C2164091"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a14a0904-c774-4844-8b14-0a5e1ee6d266</tstamps>
+      <tstamps>51ae6706-c274-4e20-b183-608d499a2ad4</tstamps>
     </comp>
     <comp ref="C3">
       <value>0.1uF</value>
@@ -117,72 +117,40 @@
       <tstamps>fed7a126-d808-45f5-9b1a-73bde920ec9a</tstamps>
     </comp>
     <comp ref="C4">
-      <value>22uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <fields>
-        <field name="LCSC SKU">C2164091</field>
-        <field name="MFG">Wurth Electronik</field>
-        <field name="PN">865080542006</field>
+        <field name="LCSC SKU">C2175202</field>
+        <field name="MFG">Murata</field>
+        <field name="PN">GRT31CR6YA106ME01L</field>
       </fields>
-      <libsource lib="Motor Shield Adapter-rescue" part="CP1_Small-Device" description=""/>
-      <property name="MFG" value="Wurth Electronik"/>
-      <property name="PN" value="865080542006"/>
-      <property name="LCSC SKU" value="C2164091"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFG" value="Murata"/>
+      <property name="PN" value="GRT31CR6YA106ME01L"/>
+      <property name="LCSC SKU" value="C2175202"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1dcb00bf-c415-4fcf-ae45-0e50512406d2</tstamps>
-    </comp>
-    <comp ref="C5">
-      <value>22uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
-      <fields>
-        <field name="LCSC SKU">C2164091</field>
-        <field name="MFG">Wurth Electronik</field>
-        <field name="PN">865080542006</field>
-      </fields>
-      <libsource lib="Motor Shield Adapter-rescue" part="CP1_Small-Device" description=""/>
-      <property name="MFG" value="Wurth Electronik"/>
-      <property name="PN" value="865080542006"/>
-      <property name="LCSC SKU" value="C2164091"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Crystal.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>51ae6706-c274-4e20-b183-608d499a2ad4</tstamps>
-    </comp>
-    <comp ref="C6">
-      <value>22uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
-      <fields>
-        <field name="LCSC SKU">C2164091</field>
-        <field name="MFG">Wurth Electronik</field>
-        <field name="PN">865080542006</field>
-      </fields>
-      <libsource lib="Motor Shield Adapter-rescue" part="CP1_Small-Device" description=""/>
-      <property name="MFG" value="Wurth Electronik"/>
-      <property name="PN" value="865080542006"/>
-      <property name="LCSC SKU" value="C2164091"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Crystal.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>711cabeb-d541-410e-9377-890d63606722</tstamps>
     </comp>
-    <comp ref="C7">
-      <value>22uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <fields>
-        <field name="LCSC SKU">C2164091</field>
-        <field name="MFG">Wurth Electronik</field>
-        <field name="PN">865080542006</field>
+        <field name="LCSC SKU">C2175202</field>
+        <field name="MFG">Murata</field>
+        <field name="PN">GRT31CR6YA106ME01L</field>
       </fields>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
-      <property name="MFG" value="Wurth Electronik"/>
-      <property name="PN" value="865080542006"/>
-      <property name="LCSC SKU" value="C2164091"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFG" value="Murata"/>
+      <property name="PN" value="GRT31CR6YA106ME01L"/>
+      <property name="LCSC SKU" value="C2175202"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
-      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
-      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>887e9296-7b4b-4feb-8efa-d0bd7b876b3c</tstamps>
     </comp>
@@ -203,6 +171,42 @@
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d6cd7a70-a3b7-47fa-a96b-9b237ff9ec3a</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="MFG">KEMET</field>
+        <field name="PN">C1206C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFG" value="KEMET"/>
+      <property name="PN" value="C1206C105K4RACTU"/>
+      <property name="LCSC SKU" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Crystal.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064944326</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="MFG">KEMET</field>
+        <field name="PN">C1206C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFG" value="KEMET"/>
+      <property name="PN" value="C1206C105K4RACTU"/>
+      <property name="LCSC SKU" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Crystal.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a14a0904-c774-4844-8b14-0a5e1ee6d266</tstamps>
     </comp>
     <comp ref="D1">
       <value>SMAJ18CA</value>
@@ -371,19 +375,19 @@
       <tstamps>db4278e5-c4ff-4b96-898d-8fc3794e3376</tstamps>
     </comp>
     <comp ref="GPIO1">
-      <value>Conn_01x06</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
       <fields>
         <field name="MFG">3M</field>
-        <field name="PN">929850-01-06-RA</field>
+        <field name="PN">929850-01-08-RA</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="MFG" value="3M"/>
-      <property name="PN" value="929850-01-06-RA"/>
+      <property name="PN" value="929850-01-08-RA"/>
       <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8060923d-aca2-404b-95b5-6fd93c162aa5</tstamps>
@@ -968,6 +972,28 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="C_Polarized_Small_US">
       <description>Polarized capacitor, small US symbol</description>
       <docs>~</docs>
@@ -1319,7 +1345,7 @@
   </libraries>
   <nets>
     <net code="1" name="+3.3V">
-      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
@@ -1331,8 +1357,8 @@
       <node ref="U5" pin="2" pinfunction="VCCA" pintype="power_in"/>
     </net>
     <net code="2" name="+5V">
-      <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="input"/>
@@ -1343,7 +1369,7 @@
       <node ref="U5" pin="19" pinfunction="VCCB" pintype="power_in"/>
     </net>
     <net code="3" name="+12V">
-      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="EN" pintype="input"/>
       <node ref="U1" pin="3" pinfunction="IN" pintype="power_in"/>
@@ -1398,7 +1424,7 @@
     </net>
     <net code="13" name="/GPIO9">
       <node ref="BOOT1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="GPIO9" pintype="bidirectional"/>
       <node ref="U5" pin="6" pinfunction="A5" pintype="bidirectional"/>
@@ -1407,31 +1433,38 @@
       <node ref="U3" pin="10" pinfunction="GPIO10" pintype="bidirectional"/>
       <node ref="U5" pin="7" pinfunction="A6" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/RXD">
+    <net code="15" name="/RESET">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="RESET1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="EN/CHIP_PU" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/RXD">
       <node ref="U3" pin="11" pinfunction="GPIO20/U0RXD" pintype="bidirectional"/>
       <node ref="U4" pin="5" pinfunction="A1" pintype="bidirectional"/>
     </net>
-    <net code="16" name="/TXD">
+    <net code="17" name="/TXD">
       <node ref="U3" pin="12" pinfunction="GPIO21/U0TXD" pintype="bidirectional"/>
       <node ref="U4" pin="4" pinfunction="A2" pintype="bidirectional"/>
     </net>
-    <net code="17" name="/USB_D+">
+    <net code="18" name="/USB_D+">
       <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U3" pin="14" pinfunction="GPIO19/USB_D+" pintype="bidirectional"/>
     </net>
-    <net code="18" name="/USB_D-">
+    <net code="19" name="/USB_D-">
       <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U3" pin="13" pinfunction="GPIO18/USB_D-" pintype="bidirectional"/>
     </net>
-    <net code="19" name="GND">
+    <net code="20" name="GND">
       <node ref="AIN1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="BOOT1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
@@ -1458,106 +1491,101 @@
       <node ref="U5" pin="11" pinfunction="GND" pintype="power_in"/>
       <node ref="V1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(AIN1-Pin_1)">
+    <net code="21" name="Net-(AIN1-Pin_1)">
       <node ref="AIN1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(AIN1-Pin_2)">
+    <net code="22" name="Net-(AIN1-Pin_2)">
       <node ref="AIN1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(AIN1-Pin_3)">
+    <net code="23" name="Net-(AIN1-Pin_3)">
       <node ref="AIN1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(AIN1-Pin_4)">
+    <net code="24" name="Net-(AIN1-Pin_4)">
       <node ref="AIN1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(AIN1-Pin_5)">
+    <net code="25" name="Net-(AIN1-Pin_5)">
       <node ref="AIN1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(D2-K)">
+    <net code="26" name="Net-(D2-K)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(D6-A)">
+    <net code="27" name="Net-(D6-A)">
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
     </net>
-    <net code="27" name="Net-(D9-A)">
+    <net code="28" name="Net-(D9-A)">
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="TTY1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="B2" pintype="bidirectional"/>
     </net>
-    <net code="28" name="Net-(D9-K)">
+    <net code="29" name="Net-(D9-K)">
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(GPIO1-Pin_1)">
+    <net code="30" name="Net-(GPIO1-Pin_1)">
       <node ref="GPIO1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U5" pin="20" pinfunction="B1" pintype="bidirectional"/>
     </net>
-    <net code="30" name="Net-(GPIO1-Pin_2)">
+    <net code="31" name="Net-(GPIO1-Pin_2)">
       <node ref="GPIO1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U5" pin="18" pinfunction="B2" pintype="bidirectional"/>
     </net>
-    <net code="31" name="Net-(GPIO1-Pin_3)">
+    <net code="32" name="Net-(GPIO1-Pin_3)">
       <node ref="GPIO1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U5" pin="17" pinfunction="B3" pintype="bidirectional"/>
     </net>
-    <net code="32" name="Net-(GPIO1-Pin_4)">
+    <net code="33" name="Net-(GPIO1-Pin_4)">
       <node ref="GPIO1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U5" pin="16" pinfunction="B4" pintype="bidirectional"/>
     </net>
-    <net code="33" name="Net-(GPIO1-Pin_5)">
+    <net code="34" name="Net-(GPIO1-Pin_5)">
       <node ref="GPIO1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U5" pin="15" pinfunction="B5" pintype="bidirectional"/>
     </net>
-    <net code="34" name="Net-(GPIO1-Pin_6)">
+    <net code="35" name="Net-(GPIO1-Pin_6)">
       <node ref="GPIO1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U5" pin="14" pinfunction="B6" pintype="bidirectional"/>
     </net>
-    <net code="35" name="Net-(TTY1-Pin_2)">
+    <net code="36" name="Net-(GPIO1-Pin_7)">
+      <node ref="GPIO1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="B7" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(TTY1-Pin_2)">
       <node ref="TTY1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U4" pin="8" pinfunction="B1" pintype="bidirectional"/>
     </net>
-    <net code="36" name="Net-(U1-BST)">
+    <net code="38" name="Net-(U1-BST)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="BST" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(U1-SW)">
+    <net code="39" name="Net-(U1-SW)">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="U1" pin="5" pinfunction="SW" pintype="output"/>
     </net>
-    <net code="38" name="Net-(U3-EN{slash}CHIP_PU)">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="RESET1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U3" pin="2" pinfunction="EN/CHIP_PU" pintype="input"/>
-    </net>
-    <net code="39" name="Net-(U4-OE)">
+    <net code="40" name="Net-(U4-OE)">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="OE" pintype="input"/>
     </net>
-    <net code="40" name="Net-(U5-OE)">
+    <net code="41" name="Net-(U5-OE)">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U5" pin="10" pinfunction="OE" pintype="input"/>
     </net>
-    <net code="41" name="unconnected-(J1-ID-Pad4)">
+    <net code="42" name="unconnected-(GPIO1-Pin_8-Pad8)">
+      <node ref="GPIO1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(J1-ID-Pad4)">
       <node ref="J1" pin="4" pinfunction="ID" pintype="passive"/>
     </net>
-    <net code="42" name="unconnected-(U5-A7-Pad8)">
-      <node ref="U5" pin="8" pinfunction="A7" pintype="bidirectional"/>
-    </net>
-    <net code="43" name="unconnected-(U5-A8-Pad9)">
+    <net code="44" name="unconnected-(U5-A8-Pad9)">
       <node ref="U5" pin="9" pinfunction="A8" pintype="bidirectional"/>
-    </net>
-    <net code="44" name="unconnected-(U5-B7-Pad13)">
-      <node ref="U5" pin="13" pinfunction="B7" pintype="bidirectional"/>
     </net>
     <net code="45" name="unconnected-(U5-B8-Pad12)">
       <node ref="U5" pin="12" pinfunction="B8" pintype="bidirectional"/>
