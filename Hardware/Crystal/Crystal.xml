@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>S:\Projects\Crystal\Hardware\Crystal\Crystal.kicad_sch</source>
-    <date>12/30/2023 7:58:18 PM</date>
+    <date>1/11/2024 10:05:29 PM</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -34,6 +34,7 @@
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="MFG" value="3M"/>
       <property name="PN" value="929850-01-06-RA"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -45,12 +46,14 @@
       <value>SW_Push</value>
       <footprint>Button_Switch_SMD:SW_SPST_B3U-3000P-B</footprint>
       <fields>
+        <field name="LCSC SKU">C231329</field>
         <field name="MFG">OMRON</field>
         <field name="PN">B3U-3000P</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="MFG" value="OMRON"/>
       <property name="PN" value="B3U-3000P"/>
+      <property name="LCSC SKU" value="C231329"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -68,6 +71,7 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="MFG" value="KEMET"/>
       <property name="PN" value="C1206C105K4RACTU"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -85,6 +89,7 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="MFG" value="KEMET"/>
       <property name="PN" value="C1206C105K4RACTU"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -96,12 +101,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
+        <field name="LCSC SKU">C600013</field>
         <field name="MFG">KEMET</field>
         <field name="PN">C1206C104K5RAC7210</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="MFG" value="KEMET"/>
       <property name="PN" value="C1206C104K5RAC7210"/>
+      <property name="LCSC SKU" value="C600013"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -113,12 +120,14 @@
       <value>22uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <fields>
+        <field name="LCSC SKU">C2164091</field>
         <field name="MFG">Wurth Electronik</field>
         <field name="PN">865080542006</field>
       </fields>
       <libsource lib="Motor Shield Adapter-rescue" part="CP1_Small-Device" description=""/>
       <property name="MFG" value="Wurth Electronik"/>
       <property name="PN" value="865080542006"/>
+      <property name="LCSC SKU" value="C2164091"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -128,12 +137,14 @@
       <value>22uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <fields>
+        <field name="LCSC SKU">C2164091</field>
         <field name="MFG">Wurth Electronik</field>
         <field name="PN">865080542006</field>
       </fields>
       <libsource lib="Motor Shield Adapter-rescue" part="CP1_Small-Device" description=""/>
       <property name="MFG" value="Wurth Electronik"/>
       <property name="PN" value="865080542006"/>
+      <property name="LCSC SKU" value="C2164091"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -143,12 +154,14 @@
       <value>22uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <fields>
+        <field name="LCSC SKU">C2164091</field>
         <field name="MFG">Wurth Electronik</field>
         <field name="PN">865080542006</field>
       </fields>
       <libsource lib="Motor Shield Adapter-rescue" part="CP1_Small-Device" description=""/>
       <property name="MFG" value="Wurth Electronik"/>
       <property name="PN" value="865080542006"/>
+      <property name="LCSC SKU" value="C2164091"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -158,12 +171,14 @@
       <value>22uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <fields>
+        <field name="LCSC SKU">C2164091</field>
         <field name="MFG">Wurth Electronik</field>
         <field name="PN">865080542006</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
       <property name="MFG" value="Wurth Electronik"/>
       <property name="PN" value="865080542006"/>
+      <property name="LCSC SKU" value="C2164091"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor, small US symbol"/>
@@ -181,6 +196,7 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="MFG" value="KEMET"/>
       <property name="PN" value="C1206C105K4RACTU"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -193,12 +209,14 @@
       <footprint>Diode_SMD:D_SMA</footprint>
       <datasheet>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</datasheet>
       <fields>
+        <field name="LCSC SKU">C523217</field>
         <field name="MFG">YAEGO</field>
         <field name="PN">SMAJ18CA-AT/TR13</field>
       </fields>
       <libsource lib="Diode" part="SMAJ18CA" description="400W bidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"/>
       <property name="PN" value="SMAJ18CA-AT/TR13"/>
       <property name="MFG" value="YAEGO"/>
+      <property name="LCSC SKU" value="C523217"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="400W bidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"/>
@@ -217,6 +235,7 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="PN" value="156120RS75300"/>
       <property name="MFG" value="Wurth Elektronik "/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -234,6 +253,7 @@
       <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
       <property name="MFG" value="Diodes Incorporated"/>
       <property name="PN" value="BZT52C3V3-7-F"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Zener diode, small symbol"/>
@@ -251,6 +271,7 @@
       <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
       <property name="MFG" value="Diodes Incorporated"/>
       <property name="PN" value="BZT52C3V3-7-F"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Zener diode, small symbol"/>
@@ -268,6 +289,7 @@
       <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
       <property name="MFG" value="Diodes Incorporated"/>
       <property name="PN" value="BZT52C3V3-7-F"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Zener diode, small symbol"/>
@@ -279,12 +301,14 @@
       <value>PMEG2005EGWX</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <fields>
+        <field name="LCSC SKU">C552812</field>
         <field name="MFG">Nexperia</field>
         <field name="PN">PMEG2005EGWX</field>
       </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
       <property name="MFG" value="Nexperia"/>
       <property name="PN" value="PMEG2005EGWX"/>
+      <property name="LCSC SKU" value="C552812"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Schottky diode, small symbol"/>
@@ -302,6 +326,7 @@
       <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
       <property name="MFG" value="Diodes Incorporated"/>
       <property name="PN" value="BZT52C3V3-7-F"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Zener diode, small symbol"/>
@@ -319,6 +344,7 @@
       <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
       <property name="MFG" value="Diodes Incorporated"/>
       <property name="PN" value="BZT52C3V3-7-F"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Zener diode, small symbol"/>
@@ -336,6 +362,7 @@
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="MFG" value="Wurth Elektronik "/>
       <property name="PN" value="156120BS75300"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode, small symbol"/>
@@ -353,6 +380,7 @@
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="MFG" value="3M"/>
       <property name="PN" value="929850-01-06-RA"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -364,12 +392,14 @@
       <value>USB_B_Micro</value>
       <footprint>Connector_USB:USB_Micro-B_Molex-105017-0001</footprint>
       <fields>
+        <field name="LCSC SKU">C136000</field>
         <field name="MFG">Molex</field>
         <field name="PN">105017-0001</field>
       </fields>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
       <property name="MFG" value="Molex"/>
       <property name="PN" value="105017-0001"/>
+      <property name="LCSC SKU" value="C136000"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="USB Micro Type B connector"/>
@@ -382,12 +412,14 @@
       <footprint>Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/281/1/JELF243B_0025-1634213.pdf</datasheet>
       <fields>
+        <field name="LCSC SKU">C167828 </field>
         <field name="MFG">Murata Electronics</field>
         <field name="PN">LQM2HPN4R7MGCL </field>
       </fields>
       <libsource lib="Motor Shield Adapter-rescue" part="INDUCTOR-pspice" description=""/>
       <property name="MFG" value="Murata Electronics"/>
       <property name="PN" value="LQM2HPN4R7MGCL "/>
+      <property name="LCSC SKU" value="C167828 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -397,12 +429,14 @@
       <value>47k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
+        <field name="LCSC SKU">C137270</field>
         <field name="MFG">YAEGO</field>
         <field name="PN">RC1206FR-0747KL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0747KL"/>
+      <property name="LCSC SKU" value="C137270"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -414,12 +448,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
+        <field name="LCSC SKU">C4303232</field>
         <field name="MFG">YAEGO</field>
         <field name="PN">RC1206FR-1310KL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-1310KL"/>
+      <property name="LCSC SKU" value="C4303232"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -431,12 +467,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
+        <field name="LCSC SKU">C4303232</field>
         <field name="MFG">YAEGO</field>
         <field name="PN">RC1206FR-1310KL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-1310KL"/>
+      <property name="LCSC SKU" value="C4303232"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -448,12 +486,14 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
+        <field name="LCSC SKU">C131398</field>
         <field name="MFG">YAEGO</field>
         <field name="PN">RC1206FR-071KL</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-071KL"/>
+      <property name="LCSC SKU" value="C131398"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -465,12 +505,14 @@
       <value>47k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
+        <field name="LCSC SKU">C137270</field>
         <field name="MFG">YAEGO</field>
         <field name="PN">RC1206FR-0747KL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0747KL"/>
+      <property name="LCSC SKU" value="C137270"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -482,12 +524,14 @@
       <value>47k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
+        <field name="LCSC SKU">C137270</field>
         <field name="MFG">YAEGO</field>
         <field name="PN">RC1206FR-0747KL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0747KL"/>
+      <property name="LCSC SKU" value="C137270"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -505,6 +549,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0711KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -522,6 +567,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0722KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -539,6 +585,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0711KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -556,6 +603,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0722KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -573,6 +621,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0711KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -590,6 +639,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0722KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -607,6 +657,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0711KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -624,6 +675,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0722KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -641,6 +693,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0711KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -658,6 +711,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0722KL"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -669,12 +723,14 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
+        <field name="LCSC SKU">C131398</field>
         <field name="MFG">YAEGO</field>
         <field name="PN">RC1206FR-0747KL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="MFG" value="YAEGO"/>
       <property name="PN" value="RC1206FR-0747KL"/>
+      <property name="LCSC SKU" value="C131398"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -686,12 +742,14 @@
       <value>SW_Push</value>
       <footprint>Button_Switch_SMD:SW_SPST_B3U-3000P-B</footprint>
       <fields>
+        <field name="LCSC SKU">C231329</field>
         <field name="MFG">OMRON</field>
         <field name="PN">B3U-3000P</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="MFG" value="OMRON"/>
       <property name="PN" value="B3U-3000P"/>
+      <property name="LCSC SKU" value="C231329"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -709,6 +767,7 @@
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="MFG" value="3M"/>
       <property name="PN" value="929850-01-04-RA"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -721,12 +780,14 @@
       <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/115/DIOD_S_A0007089856_1-2542907.pdf</datasheet>
       <fields>
+        <field name="LCSC SKU">C2071056</field>
         <field name="MFG">Diodes Incorporated</field>
         <field name="PN">AP63205WU-7 </field>
       </fields>
       <libsource lib="Regulator_Switching" part="AP63205WU" description="2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"/>
       <property name="MFG" value="Diodes Incorporated"/>
       <property name="PN" value="AP63205WU-7 "/>
+      <property name="LCSC SKU" value="C2071056"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"/>
@@ -739,12 +800,14 @@
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
       <fields>
+        <field name="LCSC SKU">C91728</field>
         <field name="MFG">ONSemi</field>
         <field name="PN">NCP1117ST33T3G</field>
       </fields>
       <libsource lib="Regulator_Linear" part="NCP1117-3.3_SOT223" description="1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"/>
       <property name="MFG" value="ONSemi"/>
       <property name="PN" value="NCP1117ST33T3G"/>
+      <property name="LCSC SKU" value="C91728"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"/>
@@ -763,6 +826,7 @@
       <libsource lib="Espressif" part="ESP32-C3-WROOM-02" description="ESP32-C3-WROOM-02 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc."/>
       <property name="MFG" value="Expressif"/>
       <property name="PN" value="ESP32-C3-WROOM-02-N4"/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="ESP32-C3-WROOM-02 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc."/>
@@ -775,12 +839,14 @@
       <footprint>Package_SO:SSOP-8_2.95x2.8mm_P0.65mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/txs0102</datasheet>
       <fields>
+        <field name="LCSC SKU">C2677354</field>
         <field name="MFG">Texas Insturments</field>
         <field name="PN">TXS0102DCTT</field>
       </fields>
       <libsource lib="Logic_LevelTranslator" part="TXS0102DCT" description="2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, SSOP-8"/>
       <property name="MFG" value="Texas Insturments"/>
       <property name="PN" value="TXS0102DCTT"/>
+      <property name="LCSC SKU" value="C2677354"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, SSOP-8"/>
@@ -793,12 +859,14 @@
       <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
       <datasheet>www.ti.com/lit/ds/symlink/txs0108e.pdf</datasheet>
       <fields>
+        <field name="LCSC SKU">C17206</field>
         <field name="MFG">Texas Insturments</field>
         <field name="PN">TXS0108EPWR</field>
       </fields>
       <libsource lib="Logic_LevelTranslator" part="TXS0108EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-20"/>
       <property name="MFG" value="Texas Insturments"/>
       <property name="PN" value="TXS0108EPWR"/>
+      <property name="LCSC SKU" value="C17206"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Bidirectional  level-shifting voltage translator, TSSOP-20"/>
@@ -808,14 +876,15 @@
     </comp>
     <comp ref="V1">
       <value>Conn_01x02</value>
-      <footprint>Terminal_Wuerth_new:WR-TBL 2P</footprint>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal</footprint>
       <fields>
-        <field name="MFG">Wurth Electronik</field>
-        <field name="PN">691322310002 </field>
+        <field name="MFG">Phoenix Contact</field>
+        <field name="PN">1757475 </field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="MFG" value="Wurth Electronik"/>
-      <property name="PN" value="691322310002 "/>
+      <property name="MFG" value="Phoenix Contact"/>
+      <property name="PN" value="1757475 "/>
+      <property name="LCSC SKU" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Crystal.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
