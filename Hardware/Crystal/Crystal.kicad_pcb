@@ -64,7 +64,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "S:/Projects/Crystal/Hardware/Crystal/Fabrication/")
+      (outputdirectory "Fabrication/")
     )
   )
 
